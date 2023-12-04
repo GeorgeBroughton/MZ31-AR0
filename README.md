@@ -1,5 +1,5 @@
 # MZ31-AR0 BIOS Files
-This is a repository of BIOS files that I hacked to support being flashed over the `MEGARAC` IPMI on the Gigabyte `MZ31-AR0` with the 128Mbit/16MByte MXIC `MX25L12873F` flash chip.  
+This is a repository of BIOS files that I hacked to support being flashed over the `MEGARAC` IPMI on the Gigabyte `MZ31-AR0` motherboard with the 128Mbit/16MByte MXIC `MX25L12873F` flash chip.  
 
 Please note that this is currently untested to the point of system functionality, and all that has been tested at this time is whether or not the MEGARAC IPMI accepts and flashes the ROM/bin file you specify.  
 
