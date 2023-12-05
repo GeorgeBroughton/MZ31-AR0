@@ -5,9 +5,7 @@ Please note that this is currently untested to the point of system functionality
 
 There is also a shell script for people developing BIOS files for this machine that will append the data to the file automatically.  
 
-All you have to do, is grab your bin/rom file, and append the following to the end of the file with a hex editor:
+All you have to do, is grab the 16-bit sum of every bit in your bin/rom file, and append the following to the end of the file with a hex editor:
 ```
-23 47 42 54 23 52 4F 4D <SUM16 MSB> <SUM16 LSB> 00 00 00 00 00 00
+23 47 42 54 23 52 4F 4D <SUM-16> 00 00 00 00 00 00
 ```
-`SUM16 MSB` is the 16-bit SUM of the contents of the file **not including the stuff we're appending** most significant byte  
-`SUM16 LSB` is the 16-bit SUM of the contents of the file **not including the stuff we're appending** least significant byte
