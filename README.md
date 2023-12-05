@@ -7,5 +7,5 @@ There is also a shell script for people developing BIOS files for this machine t
 
 All you have to do, is grab the 16-bit sum of every bit in your bin/rom file, and append the following to the end of the file with a hex editor:
 ```
-23 47 42 54 23 52 4F 4D <SUM-16> 00 00 00 00 00 00
+0x23 0x47 0x42 0x54 0x23 0x52 0x4F 0x4D <SUM-16> 0x00 0x00 0x00 0x00 0x00 0x00
 ```
